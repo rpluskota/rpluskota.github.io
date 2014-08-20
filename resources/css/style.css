@@ -1,0 +1,11 @@
+#top{
+	background-image:url("http://kotda.pl/resources/images/page/top.png");
+	display:block;
+	height:300px;
+}
+#page{
+	margin-left: auto;
+    margin-right: auto;
+	width: 1067px;
+	background-color: #1e1f18;
+}
