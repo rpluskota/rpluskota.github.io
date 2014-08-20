@@ -4,8 +4,8 @@
 	height:300px;
 }
 #page{
-	margin-left: auto;
-    margin-right: auto;
+	margin-left: auto solid gray;
+    margin-right: auto solid gray;
 	width: 1067px;
 	background-color: #1e1f18;
 }
