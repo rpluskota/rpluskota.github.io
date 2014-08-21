@@ -1,5 +1,5 @@
 body{
-background-color: #C5CC9E;
+background-color: #607F3F;
 }
 #top{
 	display: block;
@@ -12,5 +12,6 @@ background-color: #C5CC9E;
 }
 #content{
 	display: block;
-	background-color: #767F3C;
+	background-color: #1C1F18;
+	color: #BEFF79;
 }
