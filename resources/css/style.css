@@ -1,5 +1,5 @@
 body{
-background-color: #B6CC9E;
+background-color: #2A381C;
 }
 #top{
 	background-image:url("http://kotda.pl/resources/images/page/top.png");
@@ -12,6 +12,6 @@ background-color: #B6CC9E;
 #content{
 	padding: 50px;
 	display: block;
-	background-color: #1C1F18;
+	background-color: #2A381C;
 	color: #BEFF79;
 }
