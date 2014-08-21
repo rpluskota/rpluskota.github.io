@@ -2,6 +2,7 @@ body{
 background-color: #1e1f18;
 }
 #top{
+	display: block;
 	background-image:url("http://kotda.pl/resources/images/page/top.png");
 	height:300px;
 }
@@ -10,6 +11,7 @@ background-color: #1e1f18;
 	width: 1067px;
 }
 #content{
+	display: block;
 	background-color: #767F3C;
 	height: 300px;
 }
