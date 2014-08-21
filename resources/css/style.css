@@ -6,8 +6,7 @@ background-color: #1e1f18;
 	height:300px;
 }
 #page{
-	margin-left: auto;
-    margin-right: auto;
+	margin: 0 auto;
 	width: 1067px;
 }
 #content{
