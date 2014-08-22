@@ -18,7 +18,7 @@ function go3d() {
 				$('#content').load('pages/3d.html');
 			});
 };
-function govis() {
+function goVis() {
  $(document).ready(function(){
 				$('#content').load('pages/vis.html');
 			});
