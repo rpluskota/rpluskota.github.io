@@ -2,7 +2,7 @@
 #menu {
     position:relative;
     height:91px;
-    background:url(images/menu.png) repeat-x 0 center;
+    background:url(../images/menu/menu.png) repeat-x 0 center;
 }
 #menu .menu {
     left:50px;
@@ -25,13 +25,13 @@
 }
 #menu li {
     float:left;
-    background:url(images/pix.gif);
+    background:url(../images/menu/pix.gif);
 }
 #menu li li { float:none; }
 #menu div {
     display:none;
     position:absolute;
-    background:url(images/pix.gif);
+    background:url(../images/menu/pix.gif);
     margin-top:-35px;
     width:200px;
 }
@@ -92,9 +92,9 @@
 }
 #menu a {
     text-shadow:rgb(64,49,25) -1px -1px 0;
-    background:url(images/item.png) no-repeat left -546px;
+    background:url(../images/menu/item.png) no-repeat left -546px;
 }
-#menu a span { background:url(images/item.png) no-repeat right 0; }
+#menu a span { background:url(../images/menu/item.png) no-repeat right 0; }
 #menu li.current>a { background-position:left -637px; }
 #menu li.current>a span { background-position:right -182px; }
 #menu a.parent span {
@@ -112,12 +112,12 @@
     margin-left:4px;
     padding:4px 0 0 0;
     width:190px;
-    background:url(images/subitem.png) no-repeat 0 top;
+    background:url(../images/menu/subitem.png) no-repeat 0 top;
     text-shadow:#111 -1px -1px 0;
 }
 #menu div a span {
     font-size:14px;
-    background:url(images/subitem.png) no-repeat -384px bottom;
+    background:url(../images/menu/subitem.png) no-repeat -384px bottom;
     padding:3px 14px 10px 11px;
     white-space:normal;
     color:rgb(195,191,183);
@@ -137,12 +137,12 @@
 }
 
 #menu div {
-    background:url(images/columns.png) no-repeat -200px -14px;
+    background:url(../images/menu/columns.png) no-repeat -200px -14px;
     padding-top:14px;
 }
 #menu div ul {
     width:200px;
-    background:url(images/columns.png) no-repeat 0 bottom;
+    background:url(../images/menu/columns.png) no-repeat 0 bottom;
     padding-top:11px;
     padding-bottom:17px;
 }
@@ -196,7 +196,7 @@
 #menu.active div a { position:static; }
 
 #menu.active li.back {
-    background:url(images/item.png) no-repeat left -637px;
+    background:url(../images/menu/item.png) no-repeat left -637px;
     height:91px;
     position:absolute;
     padding:0;
@@ -206,7 +206,7 @@
     display:block;
     padding:0;
     width:auto;
-    background:url(images/item.png) no-repeat right -182px;
+    background:url(../images/menu/item.png) no-repeat right -182px;
     height:91px;
     margin:0 5px 0 28px;
     position:relative;
@@ -220,7 +220,7 @@
 #menu.active .spanbox {
     position:absolute;
     display:none;
-    background:url(images/pix.gif);
+    background:url(../images/menu/pix.gif);
     margin-top:-21px;
     width:200px;
 }
@@ -281,5 +281,5 @@
     position:absolute;
 }
 .menu-images-preloading { width:2px; }
-.menu-images-preloading .columns-png { background:url(images/columns.png) no-repeat; }
-.menu-images-preloading .subitem-png { background:url(images/subitem.png) no-repeat; }
+.menu-images-preloading .columns-png { background:url(../images/menu/columns.png) no-repeat; }
+.menu-images-preloading .subitem-png { background:url(../images/menu/subitem.png) no-repeat; }
