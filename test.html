@@ -10,7 +10,9 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
 function doSomething() {
-  alert("hello")
+ $(document).ready(function(){
+				$('#content').load('index.html');
+			})
 }
 </script>
 	</head>
