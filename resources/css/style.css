@@ -8,10 +8,14 @@ background-color: #1C1F18;
 #page{
 	margin: 0 auto;
 	width: 1067px;
+	font-family: 'Wellfleet';
 }
 #content{
 	padding: 50px;
 	display: block;
 	background-color: #2A381C;
 	color: #BEFF79;
+}
+#footer{
+	margin: 0 auto;
 }
