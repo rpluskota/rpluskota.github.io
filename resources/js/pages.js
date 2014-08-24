@@ -21,9 +21,24 @@ function go3d() {
 	});
  
 };
-function goProjects() {
+function goVis() {
  $(document).ready(function(){
-				$('#content').load('pages/projects.html');
+				$('#content').load('pages/visualisation.html');
+			});
+};
+function goArach() {
+ $(document).ready(function(){
+				$('#content').load('pages/arachno.html');
+			});
+};
+function goGF() {
+ $(document).ready(function(){
+				$('#content').load('pages/gameforge.html');
+			});
+};
+function goJiA() {
+ $(document).ready(function(){
+				$('#content').load('pages/jasialgosia.html');
 			});
 };
 function goContact() {
