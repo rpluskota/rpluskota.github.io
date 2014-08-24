@@ -1,7 +1,3 @@
-function goProjects() {
- $(document).ready(function(){
-				$('#content').load('pages/projects.html');
-			});
 function goAbout() {
  $(document).ready(function(){
 				$('#content').load('pages/about.html');
@@ -20,6 +16,11 @@ function goPoly() {
 function go3d() {
  $(document).ready(function(){
 				$('#content').load('pages/3d.html');
+			});
+};
+function goProjects() {
+ $(document).ready(function(){
+				$('#content').load('pages/projects.html.html');
 			});
 };
 function goContact() {
