@@ -30,6 +30,10 @@ text-indent: 25px;
 #gallery {
 	width: 960px;
 	height: 540px;
-	margin: 1px auto;
+	margin: 0px auto;
 	border: 3px solid #aaa;
+}
+h1{
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 }
