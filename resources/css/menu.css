@@ -85,7 +85,7 @@
 #menu a, #menu a span {
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-size:14px;
-    line-height:20px;
+    line-height:24px;
     color:#fff;
     text-decoration:none;
     font-weight:normal;
@@ -118,7 +118,7 @@
 #menu div a span {
     font-size:14px;
     background:url(../images/menu/subitem.png) no-repeat -384px bottom;
-    padding:3px 14px 10px 11px;
+    padding:3px 10px 10px 10px;
     white-space:normal;
     color:rgb(195,191,183);
 }
