@@ -14,6 +14,8 @@ function goPoly() {
 			});
 };
 function go3d() {
+window.alert("sometext");
+sleep(1000);
  $(document).ready(function(){
 				$('#content').load('pages/3d.html');
 			});
