@@ -1,3 +1,7 @@
+function goProjects() {
+ $(document).ready(function(){
+				$('#content').load('pages/projects.html');
+			});
 function goAbout() {
  $(document).ready(function(){
 				$('#content').load('pages/about.html');
