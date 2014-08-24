@@ -14,17 +14,15 @@ function goPoly() {
 			});
 };
 function go3d() {
-	setTimeout(function(){
-		$(window).load(function(){
-				$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
-			});
-    	window.alert("sometext");
-	}, 2000);
+	$(window).load(function(){
+		$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
+	});
+  
 
 
- $(document).ready(function(){
-				$('#content').load('pages/3d.html');
-			});
+	$(document).ready(function(){
+		$('#content').load('pages/3d.html');
+	});
  
 };
 function goProjects() {
