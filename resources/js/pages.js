@@ -17,9 +17,6 @@ function go3d() {
  $(document).ready(function(){
 				$('#content').load('pages/3d.html');
 			});
- $(window).load(function(){
-				$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
-			});
 };
 function goProjects() {
  $(document).ready(function(){
