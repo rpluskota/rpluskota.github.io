@@ -17,7 +17,7 @@ function go3d() {
 
 
 	$(document).ready(function(){
-		$('#content').load('http://kotda.pl/test/demos-jquery/image-gallery.source.html');
+		$('#content').load('pages/3d.html');
 	});
  
 };
