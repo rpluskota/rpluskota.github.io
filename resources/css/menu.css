@@ -20,7 +20,7 @@
 }
 #menu a span {
     display:block;
-    padding:30px 30px 1px 2px;
+    padding:30px 30px 0px 2px;
     white-space:nowrap;
 }
 #menu li {
@@ -118,7 +118,7 @@
 #menu div a span {
     font-size:14px;
     background:url(../images/menu/subitem.png) no-repeat -384px bottom;
-    padding:3px 10px 10px 10px;
+    padding:3px 10px 0px 10px;
     white-space:normal;
     color:rgb(195,191,183);
 }
