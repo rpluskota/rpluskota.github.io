@@ -14,12 +14,14 @@ function goPoly() {
 			});
 };
 function go3d() {
-window.alert("sometext");
-sleep(1000);
+setTimeout(function(){
+    window.alert("sometext");
+}, 2000);
+
+
  $(document).ready(function(){
 				$('#content').load('pages/3d.html');
 			});
-sleep(1000);
 window.alert("sometext");
  $(window).load(function(){
 				$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
