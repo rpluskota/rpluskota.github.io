@@ -25,4 +25,11 @@ footer{
 	background-color: #B6CC9E;
 }
 p {
-text-indent: 25px;}
+text-indent: 25px;
+}
+#gallery {
+	width: 400px;
+	height: 300px;
+	margin: 10px auto;
+	border: 3px solid #aaa;
+}
