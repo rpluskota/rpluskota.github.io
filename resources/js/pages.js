@@ -21,6 +21,7 @@ sleep(5000);
  $(window).load(function(){
 				$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
 			});
+window.alert("jestem chujem i nie dzialam");
 };
 function goProjects() {
  $(document).ready(function(){
