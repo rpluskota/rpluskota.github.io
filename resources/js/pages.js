@@ -14,14 +14,10 @@ function goPoly() {
 			});
 };
 function go3d() {
-	$(window).load(function(){
-		$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
-	});
-  
 
 
 	$(document).ready(function(){
-		$('#content').load('pages/3d.html');
+		$('#content').load('http://kotda.pl/test/demos-jquery/image-gallery.source.html');
 	});
  
 };
