@@ -22,11 +22,6 @@ function go3d() {
 				$('#content').load('pages/3d.html');
 			});
 };
-function goVis() {
- $(document).ready(function(){
-				$('#content').load('pages/vis.html');
-			});
-};
 function goContact() {
  $(document).ready(function(){
 				$('#content').load('pages/contact.html');
