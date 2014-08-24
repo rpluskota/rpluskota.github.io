@@ -20,7 +20,7 @@ function go3d() {
   
 
 
-	yeld $(document).ready(function(){
+	$(document).ready(function(){
 		$('#content').load('pages/3d.html');
 	});
  
