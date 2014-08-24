@@ -1,32 +1,3 @@
-git rm gallery/examples/example1.html
-git rm gallery/examples/example2.html
-git rm gallery/examples/example3.html
-git rm gallery/examples/example4.html
-git rm gallery/examples/img/1.png
-git rm gallery/examples/img/2.png
-git rm gallery/examples/img/3.png
-git rm gallery/examples/img/4.png
-git rm gallery/examples/img/5.png
-git rm gallery/examples/img/6.png
-git rm gallery/examples/img/7.png
-git rm gallery/examples/img/8.png
-git rm gallery/license.txt
-git rm gallery/loader.gif
-git rm gallery/rvn-gallery.css
-git rm gallery/rvn-gallery.js
-git rm pages/1.png
-git rm pages/2.png
-git rm pages/3.png
-git rm pages/img/1.png
-git rm pages/img/2.png
-git rm pages/img/3.png
-git rm pages/img/4.png
-git rm pages/img/5.png
-git rm pages/img/6.png
-git rm pages/img/7.png
-git rm pages/img/8.png
-git rm pages/img/lol.png
-git rm pages/img/t.png
 git rm resources/images/3d works/Glass_029.png
 git rm resources/images/3d works/SkullNormalMapping.png
 git rm resources/images/3d works/Untitled.gif
@@ -40,7 +11,6 @@ git rm resources/images/3d works/renderpost.png
 git rm resources/images/3d works/rose.png
 git rm resources/images/3d works/spider1.png
 git rm resources/images/3d works/spider2.png
-git rm resources/images/page/background.jpg
 git rm resources/images/page/galleries/2d works/flameshirt.png
 git rm resources/images/page/galleries/3d works/Glass_029.png
 git rm resources/images/page/galleries/3d works/SkullNormalMapping.png
@@ -53,25 +23,4 @@ git rm resources/images/page/galleries/3d works/peugeot.png
 git rm resources/images/page/galleries/3d works/renderpost.png
 git rm resources/images/page/galleries/3d works/rose.png
 git rm resources/images/page/galleries/3d works/spider1.png
-git rm resources/images/page/galleries/3d works/spider2.png
-git rm resources/js/jquery.js
-git rm test.html
-git rm test/examples/example1.html
-git rm test/examples/example2.html
-git rm test/examples/example3.html
-git rm test/examples/example4.html
-git rm test/examples/img/1.png
-git rm test/examples/img/2.png
-git rm test/examples/img/3.png
-git rm test/examples/img/4.png
-git rm test/examples/img/5.png
-git rm test/examples/img/6.png
-git rm test/examples/img/7.png
-git rm test/examples/img/8.png
-git rm test/rvn-gallery/arrows.gif
-git rm test/rvn-gallery/arrows.png
-git rm test/rvn-gallery/changelog.txt
-git rm test/rvn-gallery/license.txt
-git rm test/rvn-gallery/loader.gif
-git rm test/rvn-gallery/rvn-gallery.css
-git rm test/rvn-gallery/rvn-gallery.js
+git rm resources/images/page/galleries/3d works/spider2.png 
