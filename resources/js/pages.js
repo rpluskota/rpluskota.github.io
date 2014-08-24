@@ -20,7 +20,7 @@ function go3d() {
 };
 function goProjects() {
  $(document).ready(function(){
-				$('#content').load('pages/projects.html.html');
+				$('#content').load('pages/projects.html');
 			});
 };
 function goContact() {
