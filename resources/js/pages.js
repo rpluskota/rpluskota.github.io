@@ -14,12 +14,14 @@ function goPoly() {
 			});
 };
 function go3d() {
-	yeld $(document).ready(function(){
-		$('#content').load('pages/3d.html');
-	});
-
 	$(window).load(function(){
 		$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles']});
+	});
+  
+
+
+	yeld $(document).ready(function(){
+		$('#content').load('pages/3d.html');
 	});
  
 };
