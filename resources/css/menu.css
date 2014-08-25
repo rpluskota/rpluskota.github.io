@@ -3,6 +3,7 @@
     position:relative;
     height:91px;
     background:url(../images/menu/menu.png) repeat-x 0 center;
+    z-index: 999;
 }
 #menu .menu {
     left:50px;
