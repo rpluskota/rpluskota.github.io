@@ -23,7 +23,7 @@ function go3d() {
 };
 function goVis() {
  $(document).ready(function(){
-				$('#content').load('pages/visualisation.html');
+				$('#content').load('pages/visualization.html');
 			});
 };
 function goArach() {
