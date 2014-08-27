@@ -60,19 +60,9 @@
 		// magic, DO NOT TOUCH!
     		requestAnimationFrame(animate);
 			var time = Date.now() / 6000;
+			window.alert(time);
 
-			camera.position.x = 80 * Math.cos( time );
-			camera.position.z = 80 * Math.sin( time );
-
-			camera.lookAt( scene.position );
-
-			for ( var i = 0, l = scene.children.length; i < l; i ++ ) {
-
-				var mesh = scene.children[ i ];
-				mesh.position.x = Math.sin( time * 4 ) * i * i * 0.005;
-				mesh.position.z = Math.cos( time * 6 ) * i * i * 0.005;
-
-			}
+			
  
     		// Render the scene.
     		renderer.render(scene, camera);
