@@ -59,7 +59,7 @@
   	function animate(){
 		// magic, DO NOT TOUCH!
     		requestAnimationFrame(animate);
-			mesh.rotation.y += 0.05;
+			mesh.rotation.y += 0.01;
 
 			
  
