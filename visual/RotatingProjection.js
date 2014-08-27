@@ -60,7 +60,7 @@
 		// magic, DO NOT TOUCH!
     		requestAnimationFrame(animate);
 			var time = Date.now() / 6000;
-			//window.alert(time);
+			window.alert(time);
 
 			
  
