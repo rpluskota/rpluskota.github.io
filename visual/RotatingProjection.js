@@ -41,24 +41,7 @@
             light = new THREE.PointLight(0x6f6f6f);
             light.position.set(-2,5,-2);
             scene.add(light);
-			
-//          var light = new THREE.PointLight(0xa8a8a8);
-//          light.position.set(13,12,7);
-//          scene.add(light);
-//          light = new THREE.PointLight(0x6f6f6f);
-//          light.position.set(-9,-8,-10);
-//          scene.add(light);
-//          light = new THREE.PointLight(0x6f6f6f);
-//          light.position.set(-6,5,14);
-//          scene.add(light);
-//          light.position.set(3,-6,-4);
-//          scene.add(light);
-// 			light = new THREE.PointLight(0x6f6f6f);
-//			light.position.set(2,5,-2);
-//			scene.add(light);
-//			light = new THREE.PointLight(0x6f6f6f);
-//          light.position.set(-2,5,-2);
-//		scene.add(light);			
+		
 		//Load mesh
     		var loader = new THREE.JSONLoader();
     		loader.load( "http://kotda.pl/visual/models/kubek.js", function(geometry){
@@ -76,6 +59,14 @@
   	function animate(){
 		// magic, DO NOT TOUCH!
     		requestAnimationFrame(animate);
+			var time = Date.now() / 6000;
+			for ( var i = 0, l = scene.children.length; i < l; i ++ ) {
+
+				var mesh = scene.children[ i ];
+				mesh.position.x = Math.sin( time * 4 ) * i * i * 0.005;
+				mesh.position.z = Math.cos( time * 6 ) * i * i * 0.005;
+
+			}
  
     		// Render the scene.
     		renderer.render(scene, camera);
