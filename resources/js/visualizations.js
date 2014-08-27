@@ -1,6 +1,6 @@
 function showV1() {
  $(document).ready(function(){
-				window.open('visual/v1.html', "kubek", "width=200, height=100");
+				window.open('visual/v1.html', "", "width=1024, height=760");
 			});
 };
 function showV2() {
