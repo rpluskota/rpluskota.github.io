@@ -1,15 +1,15 @@
 function showV1() {
  $(document).ready(function(){
-				window.open('visual/v1.html', "", "width=1024, height=760");
+				window.open('visual/v1.html', "", "width=600, height=400");
 			});
 };
 function showV2() {
  $(document).ready(function(){
-				$('#viscontainer').load('pages/v2.html');
+				window.open('visual/v2.html', "", "width=600, height=400");
 			});
 };
 function showV3() {
  $(document).ready(function(){
-				$('#viscontainer').load('pages/v3.html');
+				window.open('visual/v3.html', "", "width=600, height=400");
 			});
 };
