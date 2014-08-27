@@ -1,0 +1,35 @@
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    pages/projects.html
+	deleted:    resources/images/page/galleries/3dworks/.a.swp
+	deleted:    resources/images/page/galleries/3dworks/01.png
+	deleted:    resources/images/page/galleries/3dworks/02.png
+	deleted:    resources/images/page/galleries/3dworks/03.png
+	deleted:    resources/images/page/galleries/3dworks/04.png
+	deleted:    resources/images/page/galleries/3dworks/05.png
+	deleted:    resources/images/page/galleries/3dworks/06.png
+	deleted:    resources/images/page/galleries/3dworks/07.png
+	deleted:    resources/images/page/galleries/3dworks/08.png
+	deleted:    resources/images/page/galleries/3dworks/09.png
+	deleted:    resources/images/page/galleries/3dworks/10.png
+	deleted:    resources/images/page/galleries/3dworks/11.png
+	deleted:    resources/images/page/galleries/3dworks/12.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/01.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/02.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/03.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/04.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/podczasgry.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/start.png
+	deleted:    resources/images/page/galleries/games/jasialgosia/warunek.png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a
+
+no changes added to commit (use "git add" and/or "git commit -a")
