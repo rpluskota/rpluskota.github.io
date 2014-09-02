@@ -46,7 +46,7 @@
     		var loader = new THREE.JSONLoader();
     		loader.load( "http://kotda.pl/visual/models/goblindwarf.js", function(geometry){
 				 var texture = THREE.ImageUtils.loadTexture(TEXTURE);
-				 var material = new THREE.MeshLambertMaterial({map: texture});
+				 var material = new THREE.MeshLambertMaterial();//var material = new THREE.MeshLambertMaterial({map: texture});
 				 mesh = new THREE.Mesh(geometry, material);
 				 scene.add(mesh)
     		});
