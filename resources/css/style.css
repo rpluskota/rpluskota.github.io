@@ -2,6 +2,7 @@ body{
 background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 }
 #top{
+	display:block-inline
 	background-image:url("http://kotda.pl/resources/images/page/top.png");
 	height:300px;
 }
