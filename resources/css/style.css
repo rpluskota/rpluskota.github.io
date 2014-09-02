@@ -10,19 +10,23 @@ background-color: #1E1D1C;
 	width: 1067px;
 	font-family: 'Wellfleet';
 	font-size:14px;
+	background-color: #630B11;
 }
 #content{
 	padding: 50px;
 	display: block;
-	background-color: #630B11;
 	color: #DBD68C;
 }
 footer{
+	margin: 0 auto;
+	width: 1067px;
+	font-family: 'Wellfleet';
+	font-size:14px;
 	margin-top: 20px;
 	padding: 10px;
 	padding-left: 50px;
 	color: #606060;
-	background-color: #1E1D1C;
+	background-color: #000000;
 }
 p {
 text-indent: 25px;
