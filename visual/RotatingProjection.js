@@ -11,7 +11,7 @@
 		//init of renderer
 		renderer = new THREE.WebGLRenderer({antialias:true});
     		renderer.setSize(WIDTH, HEIGHT);
-    		document.body.appendChild(renderer.domElement);
+    		document.getElementById("content").appendChild(renderer.domElement);
 
 		//init of cam
 		camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 20000);
