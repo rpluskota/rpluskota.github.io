@@ -48,7 +48,7 @@
 				 var texture = THREE.ImageUtils.loadTexture(TEXTURE);
 				 var material = new THREE.MeshLambertMaterial();//var material = new THREE.MeshLambertMaterial({map: texture});
 				 mesh = new THREE.Mesh(geometry, material);
-				 mesh.position.set(-1,0,0);
+				 mesh.position.set(2,0,0);
 				 scene.add(mesh)
     		});
 		
