@@ -13,7 +13,7 @@ background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 }
 #content{
 	padding: 50px;
-	display: block;
+	display: inline-block;
 	background-color: #2A381C;
 	color: #BEFF79;
 }
@@ -43,6 +43,5 @@ a{
 color: #f1f1f1;
 }
 canvas{
-	display: block;
 	margin: auto;
 }
