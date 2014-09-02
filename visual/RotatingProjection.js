@@ -44,7 +44,7 @@
 		
 		//Load mesh
     		var loader = new THREE.JSONLoader();
-    		loader.load( "http://kotda.pl/visual/models/kubek.js", function(geometry){
+    		loader.load( "http://kotda.pl/visual/models/goblindwarf.js", function(geometry){
 				 var texture = THREE.ImageUtils.loadTexture(TEXTURE);
 				 var material = new THREE.MeshLambertMaterial({map: texture});
 				 mesh = new THREE.Mesh(geometry, material);
