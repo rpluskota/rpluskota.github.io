@@ -1,5 +1,5 @@
 body{
-background-color: #1E1D1C;
+background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 }
 #top{
 	background-image:url("http://kotda.pl/resources/images/page/top.png");
@@ -10,23 +10,19 @@ background-color: #1E1D1C;
 	width: 1067px;
 	font-family: 'Wellfleet';
 	font-size:14px;
-	background-color: #630B11;
 }
 #content{
 	padding: 50px;
 	display: block;
-	color: #DBD68C;
+	background-color: #2A381C;
+	color: #BEFF79;
 }
 footer{
-	margin: 0 auto;
-	width: 1067px;
-	font-family: 'Wellfleet';
-	font-size:14px;
 	margin-top: 20px;
 	padding: 10px;
 	padding-left: 50px;
 	color: #606060;
-	background-color: #000000;
+	background-color: #B6CC9E;
 }
 p {
 text-indent: 25px;
