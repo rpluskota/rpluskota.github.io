@@ -132,6 +132,6 @@
 }
 div#menu {
     left:200px;
-    width:auto;
+    width:80%;
 		background:transparent url(../images/menu/header_bg.gif) repeat-x 0 0;  
 }
