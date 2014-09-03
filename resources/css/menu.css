@@ -131,7 +131,8 @@
     letter-spacing: 0;
 }
 div#menu {
-    left:200px;
+    margin-left: auto;
+	margin-right: 0px;
     width:80%;
 		background:transparent url(../images/menu/header_bg.gif) repeat-x 0 0;  
 }
