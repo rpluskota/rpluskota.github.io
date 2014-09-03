@@ -2,10 +2,10 @@ body{
 background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 }
 #top{
-	background-image:url("http://kotda.pl/resources/images/page/top.png");
-	height:43px;
+	background-image:url("../images/menu/header_bg.png") repeat-x 0 0;
+	height:44px;
 	width:200px;
-	margin-top: -43px;
+	margin-top: -44px;
 }
 #page{
 	margin: 0 auto;
