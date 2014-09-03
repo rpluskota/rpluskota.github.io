@@ -4,7 +4,7 @@ background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 #top{
 	background:transparent url(../images/menu/header_bg.gif) repeat-x 0 0;
 	height:43px;
-	width:200px;
+	width:20%;
 	margin-top: -43px;
 }
 #page{
