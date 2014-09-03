@@ -74,7 +74,7 @@
 #menu a:hover {
     background:url(../images/menu/header.gif) left -43px repeat-x;
     color:#FFF;
-}
+}header.gif
 #menu a:hover span { color:#FFF; }
 #menu li.current a {
     background: transparent url(../images/menu/header_active.gif) repeat-x;
@@ -95,7 +95,7 @@
     text-decoration:none;
     color:#9ACD32;
 }
-#menu li { background: url(../images/menu/header.gif) left top no-repeat;}
+#menu li { background: url(../images/menu/header.gif) left top no-repeat; height:43px;}
 /* menu::level >= 2 */
 #menu ul ul {width: 150px;}
 #menu li li{

@@ -1,5 +1,6 @@
 body{
 background: url("../images/page/back.jpg") repeat scroll 0% 0%;
+margin: 0 auto;
 }
 #top{
 	background:transparent url(../images/menu/header_bg.gif) repeat-x 0 0;
