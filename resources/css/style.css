@@ -2,7 +2,7 @@ body{
 background: url("../images/page/back.jpg") repeat scroll 0% 0%;
 }
 #top{
-	background-image:url("../images/menu/header_bg.png") repeat-x 0 0;
+	background:transparent url(../images/menu/header_bg.gif) repeat-x 0 0;
 	height:44px;
 	width:200px;
 	margin-top: -44px;
