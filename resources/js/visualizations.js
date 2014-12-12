@@ -1,4 +1,4 @@
-function showV1() {
+function goV1() {
  $(document).ready(function(){
 				window.open('visual/mainanimation.html', "", "width=600, height=400");
 			});
