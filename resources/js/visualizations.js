@@ -1,6 +1,6 @@
 function showV1() {
  $(document).ready(function(){
-				window.open('visual/mainanimation.html', "", "width=600, height=400");
+				window.open('visual/mainanimation.html', "", "width=967, height=600");
 			});
 };
 function showV2() {
